@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace EjercicioGrupalTaller3D
 {
-    internal class EnemigoMelee
+    internal class EnemigoMelee : EnemigoValores
     {
+        public EnemigoMelee (int damage, int health) : base(damage, health)
+        {
+
+        }
+        
+        public int Attack()
+        {
+            return damage;
+        }
+
+        public string Status() => IsAlive() ? "Vivo" : "Muerto";        {
+          
+        }
     }
 }
