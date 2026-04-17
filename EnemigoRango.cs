@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace EjercicioGrupalTaller3D
 {
-    internal class EnemigoRango
+    internal class EnemigoRango : 
     {
+
+
     }
 }
