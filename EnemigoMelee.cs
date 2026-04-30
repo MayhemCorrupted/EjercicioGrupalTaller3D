@@ -18,8 +18,8 @@ namespace EjercicioGrupalTaller3D
             return damage;
         }
 
-        public string Status() => IsAlive() ? "Vivo" : "Muerto";        {
-          
+        public string Status() => IsDead() ? "Vivo" : "Muerto";
+        {
         }
     }
 }
