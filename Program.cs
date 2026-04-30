@@ -10,6 +10,8 @@ namespace EjercicioGrupalTaller3D
     {
         static void Main(string[] args)
         {
+            Menu menu = new Menu();
+            menu.Execute();
         }
     }
 }

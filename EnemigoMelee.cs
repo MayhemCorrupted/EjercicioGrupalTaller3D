@@ -8,18 +8,15 @@ namespace EjercicioGrupalTaller3D
 {
     internal class EnemigoMelee : EnemigoValores
     {
-        public EnemigoMelee (int damage, int health) : base(damage, health)
+        public EnemigoMelee(int damage, int health) : base(damage, health)
         {
-
         }
-        
-        public int Attack()
+
+        public override int Attack()
         {
             return damage;
         }
 
         public string Status() => IsDead() ? "Vivo" : "Muerto";
-        {
-        }
     }
 }

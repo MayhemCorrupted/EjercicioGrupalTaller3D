@@ -21,5 +21,6 @@ namespace EjercicioGrupalTaller3D
         }   
         public int TakeHealth() => health;
         public bool IsDead() => health <= 0;
+        public abstract int Attack();
     }
 }
