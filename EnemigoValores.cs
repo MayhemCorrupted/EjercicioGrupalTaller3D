@@ -10,16 +10,20 @@ namespace EjercicioGrupalTaller3D
     {
         protected int damage;
         protected int health;
+
         public EnemigoValores(int damage, int health)
         {
             this.damage = damage;
             this.health = health;
         }
+
         public void TakeDamage(int damage)
         {
             health -= damage;
-        }   
+        }
+
         public int TakeHealth() => health;
+
         public bool IsDead() => health <= 0;
     }
 }
