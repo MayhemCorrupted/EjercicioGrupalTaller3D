@@ -10,6 +10,10 @@ namespace EjercicioGrupalTaller3D
     {
         static void Main(string[] args)
         {
+            Game game = new Game();
+            game.Iniciar();
+
+            Console.ReadLine();
         }
     }
 }
